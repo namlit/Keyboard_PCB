@@ -19,6 +19,9 @@ _autosave-*
 *.xml
 *.csv
 
+# Zipped Gerbers
+*.zip
+
 
 *~
 
