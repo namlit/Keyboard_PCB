@@ -1,0 +1,64 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 25LC256_EEPROM
+D External EEPROM with SPI interface in 8-pin package
+K EEPROM memory SPI serial
+F http://www.tme.eu/en/Document/65670f24ef4038728b4b7ffec4ff135f/21822f.pdf
+$ENDCMP
+#
+$CMP 74HC595
+D 8 bits serial in // out Shift Register 3 State Out
+K HCMOS SR 3State
+F http://www.tme.eu/en/Document/76c258da85808e9300c136836ef9d13c/74HC_HCT595.pdf
+$ENDCMP
+#
+$CMP ATXMEGA128A4U-A
+D TQFP44, 128k Flash, 4k Boot, 8k SRAM, 2k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/images/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
+$ENDCMP
+#
+$CMP CONN_PDI
+D Connector_PDI
+F http://www.tme.eu/en/Document/7d9961e5e60ab95d248a27b27276cc23/t821.pdf
+$ENDCMP
+#
+$CMP Cherry_MX
+D Interrupteur simple
+K switch
+$ENDCMP
+#
+$CMP Cherry_MX_double_horizontal
+D Interrupteur simple
+K switch
+$ENDCMP
+#
+$CMP Cherry_MX_double_vertical
+D Interrupteur simple
+K switch
+$ENDCMP
+#
+$CMP D_Schottky_x2_KCom_AAK
+D Double diode Schottky (Serie)
+K DEV DIODE
+F http://www.tme.eu/en/Document/d38616c6cb165f21e555b4db7b25411b/BAT54_SERIES.pdf
+$ENDCMP
+#
+$CMP LDO_3V3_APE8865Y5-33-HF-3TR
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.tme.eu/en/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf
+$ENDCMP
+#
+$CMP SPST
+D Interrupteur simple
+K switch
+$ENDCMP
+#
+$CMP USB_OTG
+D micro/mini connector
+K USB USB_OTG USB_mini USB_micro
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-78434%7FG%7Fpdf%7FJapanese%7FJPN_SS_108-78434_G.pdf%7F1981568-1
+$ENDCMP
+#
+#End Doc Library
